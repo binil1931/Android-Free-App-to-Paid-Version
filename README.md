@@ -1,9 +1,9 @@
 # Android demo for Free App change to Paid App
 
-   Here we show the sample App for Free App and Paid App
+   Here we show the sample demo for Free App and Paid App
    For this we need to develop two Application one for free and another for paid
    
-   we should add all the functionality for the free App and we can lock the some functionality those we need to enable in Paid version
+   we should add all the functionality in the free App and we can lock the some functionality those we need to enable in Paid version
    
    Paid version App act as key to open the functionality in free App
   
@@ -14,7 +14,7 @@
 	3. Use the same signed key for both App for generating signed APK
 	4. For opening the locked functionality in free App we check "package name of the paid App and signature"
 	5. If the paid App is installed in the device then check the signature , it is used for avoid hacking and there is a chance for the same package name for the App
-	6. if both condition same we get the results as true , so we can enable the lock functionality
+	6. If both condition same we get the results as true , so we can enable the lock functionality
 	
 ## Code for check the paid app package name and signature	
 	
